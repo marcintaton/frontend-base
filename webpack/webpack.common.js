@@ -49,7 +49,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '..', './build'),
-    filename: 'index.js',
+    filename: '[name].bundle.js',
   },
   optimization: {
     splitChunks: {
